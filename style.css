@@ -829,6 +829,14 @@ h4 {
     font-size: smaller;
 }
 
+footer h4{
+    font-size: 1em;
+}
+
+span{
+    display: block;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;

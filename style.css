@@ -516,8 +516,8 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
-    z-index: 500;
+    z-index: 1;
+    visibility: hidden;
     transition: all .3s ease-in-out;
 }
 
@@ -527,7 +527,7 @@ button {
 
 .showScrollTop {
     font-size: 14px;
-    opacity: 1;
+    visibility: visible;
 }
 
 a[data-lightbox] {
